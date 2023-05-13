@@ -26,22 +26,22 @@
     margin-bottom: 10px;
 }
 #logo span{
-    color: #ffc800;
+    color: #ffffff;
 }
 .nav-item{
     margin-left: 30px;
 }
 .nav-item .nav-link{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     transition: 0.5s ease;
 }
 #first-child{
-    color: #ffc800;
+    color: #ffffff;
     text-shadow: 2px 2px 2px black;
 }
 .nav-item .nav-link:hover{
-    color: #ffc800;
+    color: #000000;
     text-shadow: 1px 1px 1px black;
 }
 .icons{
@@ -179,14 +179,14 @@
 /* cards */
 #cards{
     margin-top: 100px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #cards .card h3{
-    color: #ffc800;
+    color: #050505;
     font-weight: bold;
 }
 #cards .card p{
-    color: #ffc800;
+    color: #050505;
     font-weight: bold;
 }
 #rn{
@@ -194,15 +194,15 @@
     height: 32px;
     border: none;
     background: transparent;
-    color: #ffc800;
-    border: 2px solid #ffc800;
+    color: #050505;
+    border: 2px solid #050505;
     font-weight: bold;
     text-shadow: 1px 1px 1px black;
     transition: 0.5s ease;
     cursor: pointer;
 }
 #rn:hover{
-    background-color: #ffc800;
+    background-color: #050505;
     color: white;
 }
 /* cards */
@@ -215,8 +215,8 @@
 #burger h1{
     text-align: center;
     font-weight: bold;
-    font-family: 'Dancing Script', cursive;
-    border-bottom: 2px solid #ffc800;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #000000;
     text-shadow: 1px 1px 1px black;
 }
 #burger .card{
@@ -276,7 +276,7 @@
     margin-top: 50px;
 }
 #topcards .card{
-    background-color: #ffc800;
+    background-color: #000000;
     transition: 0.5s ease;
     cursor: pointer;
 }
