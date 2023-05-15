@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.home-section1{
+    width: 100%;
+    height: 100vh;
+}
 .home-section{
     width: 100%;
     height: 100vh;
@@ -15,18 +19,33 @@
     background-size: 100%;
 }
 /* navbar */
-#logo{
-    font-size: 30px;
+.nav-item1{
     margin-left: 30px;
-    color: black;
+}
+.nav-item1 .nav-link1{
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    text-shadow: 1px 1px 1px black; 
+    transition: 0.5s ease;
 }
-#logo img{
-    margin-bottom: 10px;
+#first-child{
+    color: #000000;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
-#logo span{
-    color: #ffffff;
+.nav-item1 .nav-link1:hover{
+    color: #000000;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+.icons2{
+    margin-right: 30px;
+}
+.icons2 i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:982px){
+    .icons{
+        margin-left: 25px;
+    }
 }
 .nav-item{
     margin-left: 30px;
@@ -65,7 +84,7 @@
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .home .img{
     flex: 1 1 300px;
@@ -85,6 +104,14 @@
 .home .content{
     flex: 1 1 400px;
     margin-top: 30px;
+}
+.content1 h1{
+    margin-left: 300px;
+    margin-top: 140px;
+    margin-bottom: 30px;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: -1px 0px 0px rgb(190, 188, 188);
 }
 .content h1{
     margin-left: 45px;
@@ -157,7 +184,7 @@
 /* home content */
 /* top icons */
 #top-icons{
-    margin-top: 50px;
+    margin-top: 120px;
 }
 #top-icons h1{
     text-align: center;
@@ -171,7 +198,7 @@
 }
 #top-icons h3{
     font-size: 18px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 20px;
 }
 /* top icons */
@@ -205,12 +232,40 @@
     background-color: #050505;
     color: white;
 }
+#viewmore button{
+    width: 200px;
+    height: 32px;
+    margin-top: 35px;
+    margin-left: 1150px;
+    margin-right: 50px;
+    background: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+#viewmore button:hover{
+    background-color: #000000;
+    color: white;
+}
 /* cards */
 
 /* burger */
 #burger{
     margin-top: 100px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+#burger1{
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#burger1 h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #000000;
+    text-shadow: 1px 1px 1px black;
 }
 #burger h1{
     text-align: center;
@@ -220,6 +275,8 @@
     text-shadow: 1px 1px 1px black;
 }
 #burger .card{
+    margin-top: 10px;
+    margin-bottom: 10px;
     transition: 0.5s ease;
     cursor: pointer;
 }
@@ -304,7 +361,7 @@
     text-shadow: 1px 1px 1px rgb(190, 188, 188);
 }
 #about p{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #readmorebtn button{
     width: 200px;
@@ -351,7 +408,7 @@
     text-shadow: 1px 1px 1px black;
 }
 #contact p{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #contact input{
     width: 500px;
@@ -395,9 +452,6 @@
     }
 }
 @media screen and (max-width:385px){
-    #contact input{
-        width: 250px;
-    }
 }
 /* contact */
 
