@@ -3,16 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-.home-section1{
-    width: 100%;
-    height: 100vh;
-}
 .home-section{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to bottom, rgba(172, 242, 255, 0.397), rgba(0, 0, 0, 0.377)),
     url("/images/landing.jpg");
     height: 100vh;
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.home-section1{
+    width: 100%;
+    height: 100vh;
+}
+.home-section2{
+    width: 70%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom, rgba(172, 242, 255, 0.397), rgba(0, 0, 0, 0.377)),
+    url("./Picx\ ac/contact.jpg");
+    height: 80vh;
     width: 100%;
     color: white;
     background-repeat: no-repeat;
@@ -42,11 +53,6 @@
     margin-left: 10px;
     cursor: pointer;
 }
-@media screen and (max-width:982px){
-    .icons{
-        margin-left: 25px;
-    }
-}
 .nav-item{
     margin-left: 30px;
 }
@@ -70,11 +76,6 @@
     margin-left: 10px;
     cursor: pointer;
 }
-@media screen and (max-width:982px){
-    .icons{
-        margin-left: 25px;
-    }
-}
 /* navbar */
 /* home content */
 .home{
@@ -93,27 +94,27 @@
     width: 92%;
     animation: c 5s linear infinite;
 }
-@keyframes c{
-    0%, 100%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(30px);
-    }
-}
 .home .content{
     flex: 1 1 400px;
     margin-top: 30px;
 }
 .content1 h1{
-    margin-left: 300px;
-    margin-top: 140px;
+    margin-left: 600px;
+    margin-top: 350px;
     margin-bottom: 30px;
     font-size: 65px;
     font-weight: bold;
     text-shadow: -1px 0px 0px rgb(190, 188, 188);
 }
 .content h1{
+    margin-left: 45px;
+    margin-top: 110px;
+    margin-bottom: 30px;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: -1px 0px 0px rgb(190, 188, 188);
+}
+.container1 h1{
     margin-left: 45px;
     margin-top: 110px;
     margin-bottom: 30px;
@@ -153,34 +154,6 @@
     font-size: 20px;
     font-weight: bold;
 }
-@media screen and (max-width:1200px){
-    .home-section{
-        height: 95vh;
-    }
-}
-@media screen and (max-width:799px){
-    .home-section{
-        height: 145vh;
-    }
-}
-@media screen and (max-width:550px){
-    .home-section{
-        height: 110vh;
-    }
-}
-@media screen and (max-width:420px){
-    .content h1 span{
-        font-size: 80px;
-    }
-}
-@media screen and (max-width:320px){
-    .content h1{
-        font-size: 50px;
-    }
-    .content h1 span{
-        font-size: 60px;
-    }
-}
 /* home content */
 /* top icons */
 #top-icons{
@@ -216,84 +189,47 @@
     color: #050505;
     font-weight: bold;
 }
-#rn{
-    width: 150px;
-    height: 32px;
-    border: none;
-    background: transparent;
-    color: #050505;
-    border: 2px solid #050505;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px black;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-#rn:hover{
-    background-color: #050505;
-    color: white;
-}
-#viewmore button{
-    width: 200px;
-    height: 32px;
-    margin-top: 35px;
-    margin-left: 1150px;
-    margin-right: 50px;
-    background: transparent;
-    border: 2px solid #000000;
-    color: #000000;
-    font-weight: bold;
-    letter-spacing: 3px;
-    transition: 0.5s ease;
-}
-#viewmore button:hover{
-    background-color: #000000;
-    color: white;
-}
-/* cards */
 
-/* burger */
-#burger{
+/* cards */
+#Coffee{
     margin-top: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
-#burger1{
+#Coffee1{
     margin-top: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
-#burger1 h1{
+#Coffee1 h1{
     text-align: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 2px solid #000000;
     text-shadow: 1px 1px 1px black;
 }
-#burger h1{
+#Coffee h1{
     text-align: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 2px solid #000000;
     text-shadow: 1px 1px 1px black;
 }
-#burger .card{
+#Coffee .card{
     margin-top: 10px;
     margin-bottom: 10px;
     transition: 0.5s ease;
     cursor: pointer;
 }
-#burger .card:hover{
+#Coffee .card:hover{
     background-color: #757575;
 }
-#burger .card h3{
+#Coffee .card h3{
     font-weight: bold;
     text-shadow: 0px 0px 1px black;
 }
-#burger .card h5 span{
+#Coffee .card h5 span{
     color: black;
     float: right;
 }
-/* burger */
-
-
 
 /* banner */
 .banner{
@@ -330,14 +266,25 @@
 
 /* top cards */
 #topcards{
-    margin-top: 50px;
+    margin-top: 500px;
+}
+#topcards1{
+    margin-top: 200px;
 }
 #topcards .card{
     background-color: #000000;
     transition: 0.5s ease;
     cursor: pointer;
 }
+#topcards .card1{
+    background-color: #000000;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
 #topcards .card:hover{
+    transform: translateY(-10px);
+}
+#topcards .card1:hover{
     transform: translateY(-10px);
 }
 /* top cards */
@@ -354,18 +301,49 @@
     border-bottom: 2px solid #050505;
     text-shadow: 1px 1px 1px rgb(190, 188, 188);
 }
+#about1 h1{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px rgb(190, 188, 188);
+}
+#about3 h1{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px rgb(190, 188, 188);
+}
 #about h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     border-bottom: 2px solid #000000;
     text-shadow: 1px 1px 1px rgb(190, 188, 188);
 }
+#about2 h4{
+    margin-top: 20px;  
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px rgb(190, 188, 188);
+}
 #about p{
     font-family: 'Times New Roman', Times, serif;
 }
+#about1 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 #readmorebtn button{
-    width: 200px;
-    height: 32px;
+    width: 400px;
+    height: 50px;
     background: transparent;
     border: 2px solid #000000;
     color: #000000;
@@ -376,6 +354,9 @@
 #about .card{
     background-color: #000000;
 }
+#about .card1{
+    background-color: #000000;
+}
 #readmorebtn button:hover{
     background-color: #000000;
     color: white;
@@ -383,12 +364,19 @@
 /* about */
 
 
-
+.nav-link1{
+    text-decoration: none;
+}
 
 
 
 
 /* contact */
+
+.w800{
+    width: 100%;
+    height: 100vh;
+}
 #contact{
     margin-top: 10px;
     border: 2px solid #000000;
@@ -446,13 +434,6 @@
 #contact i span{
     font-family: 'Times New Roman', Times, serif;
 }
-@media screen and (max-width:1200px){
-    #contact input{
-        width: 350px;
-    }
-}
-@media screen and (max-width:385px){
-}
 /* contact */
 
 
@@ -471,7 +452,7 @@
     text-shadow: 0px 0px 1px black;
 }
 #footer .footer-top{
-    padding: 60px 030px;
+    padding: 20px 030px;
     border: 2px solid #000000;
     font-weight: bold;
     text-shadow: 1px 1px 1px black;
@@ -553,11 +534,6 @@
     text-align: center;
 }
 /* footer */
-
-
-
-
-
 .arrow{
     position: fixed;
     height: 50px;
@@ -570,4 +546,13 @@
 .arrow i{
     color: black;
     font-size: 30px;
+}
+.crad1{
+    margin-left: 200px;
+}
+.card-img-top{
+    margin-left: 200px;
+}
+.card-body{
+    margin-left: 200px;
 }
